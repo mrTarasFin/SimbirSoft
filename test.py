@@ -22,5 +22,3 @@ def test_one_part(browser):
     assert site.check_balance() == 0, 'Баланс не обнулен'
     site.save_file(site.button_transaction())
 
-
-    time.sleep(5)
